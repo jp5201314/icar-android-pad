@@ -25,14 +25,16 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    /*butterknife编译包*/
+    /*eventBus编译包*/
+    /*okhttpfinal编译包*/
+    /*fastjson编译包*/
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
-    /*butterknife编译包*/
     compile 'com.jakewharton:butterknife:8.5.1'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
-    /*eventBus编译包*/
     compile 'org.greenrobot:eventbus:3.0.0'
-    /*okhttpfinal编译包*/
     compile 'cn.finalteam:okhttpfinal:2.0.7'
+    compile 'com.alibaba:fastjson:1.2.7'
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
 }

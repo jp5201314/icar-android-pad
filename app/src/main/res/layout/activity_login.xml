@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#373d41"
     android:orientation="vertical"
-    tools:context="org.icot.icotpad.LoginActivity">
+    tools:context="org.icot.icotpad.activity.LoginActivity">
 
 <RelativeLayout
     android:layout_width="match_parent"
@@ -59,6 +59,7 @@
             android:layout_marginLeft="10dp"
             />
         <EditText
+            android:id="@+id/et_mobile"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="手机号"
@@ -93,6 +94,7 @@
                 android:layout_marginLeft="10dp"
                 />
             <EditText
+                android:id="@+id/et_password"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="密码"
